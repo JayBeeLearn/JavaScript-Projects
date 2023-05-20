@@ -1,0 +1,54 @@
+.input {
+  /* display: flex;
+  flex-direction: column; */
+  font-size: 1.5rem;
+}
+
+.input p {
+  font-size: 2rem;
+  display: flex;
+}
+
+.try {
+  color: red;
+}
+
+.red {
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin: 1rem;
+}
+
+.blue {
+  background-color: blue;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin: 1rem;
+}
+
+.green {
+  background-color: green;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin: 1rem;
+}
+
+
+.btn {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin: 1rem;
+}
+

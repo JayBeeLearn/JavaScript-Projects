@@ -1,0 +1,74 @@
+body{
+    background-color: #aaa;
+}
+
+
+.animation-side{
+    height: 400px;
+}
+.animation{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    position: relative;
+    animation-name: myAnimation;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+h1{
+    text-align: center;
+    position: relative;
+    top: 95px;
+}
+
+@keyframes myAnimation {
+
+    0%{background-color:  white; top: 0; left: 0; border-radius: 0 0 0 0;}
+    20%{background-color: green; top 0; left: 150px; border-radius: 50% 0 0 0;}
+    40%{ background-color: orange; top: 150px; left: 150px; border-radius: 0 50% 0 0;}
+    60%{ background-color: blue; top: 100px; left: 70px; border-radius: 50% 50% 0 0;}
+    80%{ background-color: sandybrown; top: 150px; left: 0; border-radius: 50% 50% 50% 0;}
+    100%{ background-color: white; top: 0; left: 0; border-radius: 50% 50% 50% 50%;}
+    
+}
+
+.animation:hover{
+    background-color: #008080;
+    border-radius: 25px;
+    border: 7px solid brown;
+    transform: rotateY(45deg);
+}
+.transition{
+    background: linear-gradient(green, red);
+    height: 200px;
+    width: 200px;
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+.transition:hover{
+    background: linear-gradient(rgba(255, 0, 43, 0), orange);
+    border-radius: 25px;
+    border: 7px solid brown;
+    transform: rotateZ(180deg);
+}
+
+button{
+    text-align: center;
+
+}
+
+.button{
+    width: 20px;
+    height: 20px;
+    padding: 5px 10px;
+    position: relative;
+    top: 10px;
+    left: 5px;
+    background-color: rgb(105, 28, 0);
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    transform: rotateY(180deg);
+}
